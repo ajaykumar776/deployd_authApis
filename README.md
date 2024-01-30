@@ -33,14 +33,14 @@ git clone Links:
 1. composer install
 2. cp .env.example .env
 
-- Please update below details in .env file
-    JWT_KEY=something
-    DB_CONNECTION=pgsql
-    DB_HOST=127.0.0.1
-    DB_PORT=5432
-    DB_DATABASE=deployd
-    DB_USERNAME=postgres
-    DB_PASSWORD=postgres
+# Please update below details in .env file
+- JWT_KEY=something
+- DB_CONNECTION=pgsql
+- DB_HOST=127.0.0.1
+- DB_PORT=5432
+- DB_DATABASE=deployd
+- DB_USERNAME=postgres
+- DB_PASSWORD=postgres
 
 3. php artisan key:generate
 4. php artisan migrate
