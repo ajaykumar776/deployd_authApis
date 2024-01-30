@@ -33,10 +33,19 @@ Application layer  :  Req->Controller->Service->model->response;
 git clone Links:
 1. composer install
 2. cp .env.example .env
-3. set JWT_KEY in .env
-4. php artisan key:generate
-5. php artisan migrate
-6. php artisan serve --port=8000
+
+- Please update below details in .env file
+    JWT_KEY=something
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE=deployd
+    DB_USERNAME=postgres
+    DB_PASSWORD=postgres
+
+3. php artisan key:generate
+4. php artisan migrate
+5. php artisan serve --port=8000
 
 # Collection Details 
 # file i have mention in Emails.
