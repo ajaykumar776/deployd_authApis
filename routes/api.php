@@ -28,7 +28,4 @@ Route::middleware([UserAuthMiddleware::class])->group(function () {
     Route::prefix('profile')->group(function () {
         Route::post('/get', 'api\AuthApi@get')->name('profile_get_api')->middleware(UserAuthMiddleware::class);
     });
-    Route::prefix('auth')->group(function () {
-        Route::post('/logout', 'api\AuthApi@logout')->name('logout_api');
-    });
 });
