@@ -26,9 +26,8 @@ Application layer  :  Req->Controller->Service->model->response;
 ## Installation
 
 1. **Clone the repository:**
-
-- move to backend 
-- cd deployd
+    
+- cd deployd_authApis
 
 git clone Links:
 1. composer install
